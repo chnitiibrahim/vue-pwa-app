@@ -1,0 +1,14 @@
+// animations
+$hoverEasing: cubic-bezier(0.23, 1, 0.32, 1);
+$returnEasing: cubic-bezier(0.445, 0.05, 0.55, 0.95);
+$transition: cubic-bezier(0.215, 0.61, 0.355, 1);
+
+// screen sizes
+$sizeSmall: 420px;
+$sizeMedium: 720px;
+$sizeLarge: 1200px;
+
+// screen breakpoints
+$screenSmall: "only screen and (min-width : #{$sizeSmall})";
+$screenMedium: "only screen and (min-width : #{$sizeMedium})";
+$screenLarge: "only screen and (min-width : #{$sizeLarge})";
